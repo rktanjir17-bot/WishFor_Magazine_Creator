@@ -1,0 +1,81 @@
+body {
+    background-color: #f7f5f0;
+    font-family: 'Playfair Display', Georgia, serif;
+    color: #2c2c2c;
+    margin: 0;
+    padding: 20px;
+}
+
+.hero-section {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.hero-section h1 {
+    font-size: 2.2rem;
+    color: #1a1a1a;
+}
+
+.wish-form-box {
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    background: #ffffff;
+    padding: 20px 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.wish-form-box label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.wish-form-box input, .wish-form-box textarea {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+.action-bar {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.btn-primary {
+    background-color: #7d9672;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.magazine-viewport {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #4a5568;
+    line-height: 1.6;
+}
+
+.quote-author {
+    font-weight: bold;
+    color: #7d9672;
+    text-align: right;
+    margin-top: 15px;
+}
